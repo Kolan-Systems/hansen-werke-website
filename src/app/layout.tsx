@@ -2,7 +2,9 @@ import type { Metadata } from 'next'
 import { Playfair_Display, Inter } from 'next/font/google'
 import './globals.css'
 import { LanguageProvider } from '@/lib/LanguageContext'
+import { LightboxProvider } from '@/lib/LightboxContext'
 import PageTracker from '@/components/PageTracker'
+import Lightbox from '@/components/Lightbox'
 
 const playfair = Playfair_Display({
   variable: '--font-playfair',
@@ -33,8 +35,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="de" className={`${playfair.variable} ${inter.variable}`}>
       <body className="antialiased font-sans bg-stone-900 text-stone-100">
         <LanguageProvider>
-          <PageTracker />
-          {children}
+          <LightboxProvider>
+            <PageTracker />
+            {children}
+            <Lightbox />
+          </LightboxProvider>
         </LanguageProvider>
       </body>
     </html>

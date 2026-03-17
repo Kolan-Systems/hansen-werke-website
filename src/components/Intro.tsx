@@ -2,9 +2,11 @@
 
 import Image from 'next/image'
 import { useLanguage } from '@/lib/LanguageContext'
+import { useLightbox } from '@/lib/LightboxContext'
 
 export default function Intro() {
   const { t } = useLanguage()
+  const { open } = useLightbox()
 
   return (
     <section id="intro" className="bg-amber-50 py-20 lg:py-32">
@@ -18,7 +20,6 @@ export default function Intro() {
             <p className="text-stone-600 text-lg leading-relaxed mb-10">
               {t.intro.body}
             </p>
-            {/* Stats */}
             <div className="grid grid-cols-3 gap-6">
               {[
                 { value: t.intro.stat1, label: t.intro.stat1label },
@@ -37,23 +38,33 @@ export default function Intro() {
 
           {/* Image stack */}
           <div className="relative">
-            <div className="relative h-80 sm:h-96 lg:h-[500px]">
+            <button
+              onClick={() => open('/images/rainbow-tower.png', 'Regenbogen über dem Kalkturm')}
+              className="relative h-80 sm:h-96 lg:h-[500px] w-full block cursor-zoom-in group rounded-2xl overflow-hidden shadow-2xl"
+              aria-label="Bild vergrößern"
+            >
               <Image
                 src="/images/rainbow-tower.png"
                 alt="Regenbogen über dem Kalkturm"
                 fill
-                className="object-cover rounded-2xl shadow-2xl"
+                className="object-cover transition-transform duration-500 group-hover:scale-105"
               />
-            </div>
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/15 transition-colors" />
+            </button>
+
             {/* Floating second image */}
-            <div className="absolute -bottom-8 -left-8 w-48 h-36 sm:w-64 sm:h-48 hidden sm:block">
+            <button
+              onClick={() => open('/images/sunrise-reflection.png', 'Sonnenaufgang Hansen-Werke')}
+              className="absolute -bottom-8 -left-8 w-48 h-36 sm:w-64 sm:h-48 hidden sm:block cursor-zoom-in group rounded-xl overflow-hidden shadow-xl border-4 border-amber-50"
+              aria-label="Bild vergrößern"
+            >
               <Image
                 src="/images/sunrise-reflection.png"
                 alt="Sonnenaufgang Hansen-Werke"
                 fill
-                className="object-cover rounded-xl shadow-xl border-4 border-amber-50"
+                className="object-cover transition-transform duration-500 group-hover:scale-105"
               />
-            </div>
+            </button>
           </div>
         </div>
       </div>

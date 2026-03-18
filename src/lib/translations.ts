@@ -27,7 +27,7 @@ export const translations = {
     },
     timeline: {
       heading: 'Eine Geschichte in Schichten',
-      sub: 'Kreide, Verfall und Wiedergeburt — 80 Jahre komprimiert.',
+      sub: 'Kreide, Verfall und Wiedergeburt — 150 Jahre komprimiert.',
       events: [
         {
           year: '1946',
@@ -185,7 +185,7 @@ export const translations = {
     },
     timeline: {
       heading: 'A History in Layers',
-      sub: 'Chalk, decay and rebirth — 80 years compressed.',
+      sub: 'Chalk, decay and rebirth — 150 years compressed.',
       events: [
         {
           year: '1946',

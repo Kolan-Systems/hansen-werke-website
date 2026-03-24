@@ -9,6 +9,7 @@ export const translations = {
       gallery: 'Galerie',
       join: 'Mitmachen',
       contact: 'Kontakt',
+      faq: 'FAQ',
     },
     hero: {
       tagline: 'Von der Kreidefabrik zum Kulturdorf.',
@@ -150,6 +151,98 @@ export const translations = {
       privacy: 'Datenschutz',
       registry: 'Amtsgericht Hildesheim · VerR 201082',
     },
+    faq: {
+      heading: 'Häufige Fragen',
+      sub: 'Alles, was du über die Hansen-Werke wissen willst — ehrlich, direkt, ohne Bürokratendeutsch.',
+      backLink: '← Zurück zur Startseite',
+      ctaHeading: 'Frage nicht dabei?',
+      ctaText: 'Schreib uns einfach. Wir antworten, sobald wir die Schaufel aus der Hand legen.',
+      ctaButton: 'Frage stellen',
+      categories: [
+        {
+          title: 'Das Projekt',
+          icon: '🏭',
+          items: [
+            {
+              q: 'Was sind die Hansen-Werke?',
+              a: 'Eine ehemalige Kreide- und Kalkfabrik auf 86.000 m² in Lengede, Niedersachsen. Seit 2013 wird das verfallene Industriegelände Stück für Stück in ein autarkes Kulturdorf verwandelt — mit Werkstätten, Gärten, Veranstaltungsräumen und Gemeinschaftsleben.',
+            },
+            {
+              q: 'Wer hat das Gelände gekauft — und warum für 1 €?',
+              a: 'Levi Lewandowski hat das gesamte Gelände 2013 für einen symbolischen Euro vom Erben Nico Hansen erworben. Der Preis war symbolisch, weil das Gelände nach Jahrzehnten des Verfalls, illegaler Müllentsorgung und Kontamination einen negativen Marktwert hatte. Der Erbe suchte jemanden mit einer Vision — nicht einen Spekulanten.',
+            },
+            {
+              q: 'Was ist das langfristige Ziel?',
+              a: 'Ein lebendiges, offenes Kulturdorf: Werkstätten, Ateliers, Wohnraum, Veranstaltungshallen, Permakultur-Gärten, erneuerbare Energie — eine echte Gemeinschaft, die sich weitgehend selbst versorgt, aber offen für die Nachbarschaft bleibt. Kein Rückzugsort, kein geschlossener Zirkel.',
+            },
+          ],
+        },
+        {
+          title: 'Verein & Recht',
+          icon: '⚖️',
+          items: [
+            {
+              q: 'Was ist der Hansen-Werke e.V.?',
+              a: 'Ein 2016 gegründeter gemeinnütziger Verein (eingetragener Verein), registriert beim Amtsgericht Hildesheim unter VerR 201082. Zweck: Förderung von Kunst, Kultur, Natur und Gemeinschaft auf dem Gelände der ehemaligen Hansen-Werke.',
+            },
+            {
+              q: 'Wie finanziert sich das Projekt?',
+              a: 'Komplett ohne institutionelle Förderung. Das Projekt lebt von Spenden, ehrenamtlicher Arbeit und Eigeninitiative. Jeder Euro fließt direkt in den Aufbau. Spenden gehen an: Hansen-Werke e.V., IBAN DE35 4306 0967 4111 0732 00, GLS Bank.',
+            },
+            {
+              q: 'Ist das Gelände Privatbesitz?',
+              a: 'Ja. Das Gelände gehört Levi Lewandowski bzw. wird durch den Verein bewirtschaftet. Teile des Geländes — insbesondere der alte Steinbruchteich — stehen unter Naturschutz (seit 1992) und bleiben unangetastet.',
+            },
+          ],
+        },
+        {
+          title: 'Besuchen & Mitmachen',
+          icon: '🤝',
+          items: [
+            {
+              q: 'Kann ich das Gelände besuchen?',
+              a: 'Ja — aber nur nach vorheriger Anmeldung. Das Gelände ist eine aktive Baustelle. Spontane Besuche sind aus Sicherheitsgründen nicht möglich. Schreib einfach eine Mail an info@hansenwerke.net und wir finden einen Termin.',
+            },
+            {
+              q: 'Wie kann ich helfen?',
+              a: 'Auf viele Arten: vor Ort mitarbeiten (Handwerk, Garten, Aufräumen, Veranstaltungen), Geld spenden, Material spenden, das Projekt weitererzählen. Meld dich per Mail an info@hansenwerke.net — wir finden das Richtige für dich.',
+            },
+            {
+              q: 'Gibt es Veranstaltungen?',
+              a: 'Ja, regelmäßig: Konzerte, Gemeinschaftsabende, Workshops, Arbeitseinsätze. Aktuelle Termine findest du auf unserer Facebook- und Instagram-Seite oder per direkter Nachricht.',
+            },
+          ],
+        },
+        {
+          title: 'Sicherheit & Zustand',
+          icon: '🔒',
+          items: [
+            {
+              q: 'Ist das Gelände sicher?',
+              a: 'Es ist eine aktive Restaurierungsbaustelle. Einige Gebäude sind statisch gesichert, andere noch nicht. Genau deshalb müssen Besuche koordiniert werden — das Team weiß, welche Bereiche sicher begehbar sind und welche nicht.',
+            },
+            {
+              q: 'Gibt es Altlasten oder Kontamination?',
+              a: 'Das Gelände wurde über Jahrzehnte illegal als Müllhalde genutzt. Seit 2013 wird kontinuierlich aufgeräumt und saniert. Das Naturschutzgebiet hat sich von selbst erholt. Die vollständige Sanierung ist Teil der langfristigen Planung.',
+            },
+          ],
+        },
+        {
+          title: 'Zukunft',
+          icon: '🌱',
+          items: [
+            {
+              q: 'Was passiert als Nächstes?',
+              a: 'Das Projekt entwickelt sich ständig weiter. Aktuelle Schwerpunkte: Stabilisierung der Haupthalle, Ausbau des Gartens, Aufbau gemeinschaftlicher Infrastruktur. Es ist eine Vision, die Jahrzehnte umfasst — nicht Quartale.',
+            },
+            {
+              q: 'Kann ich dort wohnen?',
+              a: 'Das Hufeisengehöft wird schrittweise für Wohnnutzung restauriert. Wohnen auf dem Gelände könnte in Zukunft möglich sein, sobald die Restaurierung voranschreitet. Kontaktiere das Team für den aktuellen Stand.',
+            },
+          ],
+        },
+      ],
+    },
     imprint: {
       heading: 'Impressum',
       org: 'Hansen-Werke e.V.',
@@ -167,6 +260,7 @@ export const translations = {
       gallery: 'Gallery',
       join: 'Get Involved',
       contact: 'Contact',
+      faq: 'FAQ',
     },
     hero: {
       tagline: 'From chalk factory to cultural village.',
@@ -307,6 +401,98 @@ export const translations = {
       imprint: 'Imprint',
       privacy: 'Privacy',
       registry: 'Amtsgericht Hildesheim · VerR 201082',
+    },
+    faq: {
+      heading: 'Frequently Asked Questions',
+      sub: 'Everything you want to know about the Hansen-Werke — honest, direct, no jargon.',
+      backLink: '← Back to homepage',
+      ctaHeading: "Question not listed?",
+      ctaText: "Just write to us. We'll reply as soon as we put the shovel down.",
+      ctaButton: 'Ask a question',
+      categories: [
+        {
+          title: 'The Project',
+          icon: '🏭',
+          items: [
+            {
+              q: 'What are the Hansen-Werke?',
+              a: 'A former chalk and lime factory spanning 86,000 m² in Lengede, Lower Saxony. Since 2013, the derelict industrial site has been gradually transformed into a self-sufficient cultural village — with workshops, gardens, event spaces and community life.',
+            },
+            {
+              q: 'Who bought the site — and why for 1 €?',
+              a: 'Levi Lewandowski purchased the entire site in 2013 for a symbolic euro from heir Nico Hansen. The price was symbolic because after decades of decay, illegal dumping and contamination, the site had a negative market value. The heir was looking for someone with a vision — not a speculator.',
+            },
+            {
+              q: 'What is the long-term goal?',
+              a: "A living, open cultural village: workshops, studios, housing, event halls, permaculture gardens, renewable energy — a real community that is largely self-sustaining but remains open to the surrounding neighbourhood. Not a retreat, not a closed circle.",
+            },
+          ],
+        },
+        {
+          title: 'Association & Legal',
+          icon: '⚖️',
+          items: [
+            {
+              q: 'What is Hansen-Werke e.V.?',
+              a: 'A non-profit association (eingetragener Verein) founded in 2016, registered at Amtsgericht Hildesheim under VerR 201082. Its purpose: promoting art, culture, nature and community on the grounds of the former Hansen-Werke.',
+            },
+            {
+              q: 'How is the project funded?',
+              a: 'Entirely without institutional funding. The project lives from donations, volunteer work and self-initiative. Every euro goes directly into building. Donations go to: Hansen-Werke e.V., IBAN DE35 4306 0967 4111 0732 00, GLS Bank.',
+            },
+            {
+              q: 'Is the site privately owned?',
+              a: 'Yes. The site belongs to Levi Lewandowski and is managed through the association. Parts of the site — particularly the old quarry pond — are a protected nature reserve (since 1992) and remain untouched.',
+            },
+          ],
+        },
+        {
+          title: 'Visiting & Getting Involved',
+          icon: '🤝',
+          items: [
+            {
+              q: 'Can I visit the site?',
+              a: "Yes — but only by prior arrangement. The site is an active construction zone. Spontaneous visits are not possible for safety reasons. Simply send an email to info@hansenwerke.net and we'll find a time.",
+            },
+            {
+              q: 'How can I help?',
+              a: 'In many ways: work on site (crafts, gardening, clearing, events), donate money, donate materials, spread the word. Get in touch via info@hansenwerke.net — we\'ll find the right thing for you.',
+            },
+            {
+              q: 'Are there events?',
+              a: 'Yes, regularly: concerts, community evenings, workshops, work days. Check our Facebook and Instagram pages for current dates, or reach out directly.',
+            },
+          ],
+        },
+        {
+          title: 'Safety & Condition',
+          icon: '🔒',
+          items: [
+            {
+              q: 'Is the site safe?',
+              a: "It's an active restoration site. Some buildings are structurally secured, others are not yet. That's exactly why visits must be coordinated — the team knows which areas are safe to enter and which are not.",
+            },
+            {
+              q: 'Are there contaminants or hazardous materials?',
+              a: 'The site was used as an illegal dump for decades. Cleanup has been ongoing since 2013. The nature reserve area has recovered on its own. Full remediation is part of the long-term plan.',
+            },
+          ],
+        },
+        {
+          title: 'Future',
+          icon: '🌱',
+          items: [
+            {
+              q: 'What happens next?',
+              a: "The project is constantly evolving. Current priorities: stabilising the main hall, expanding the garden, building communal infrastructure. This is a vision spanning decades — not quarters.",
+            },
+            {
+              q: 'Can I live there?',
+              a: 'The horseshoe farmhouse is being gradually restored for residential use. Living on site may become possible as restoration progresses. Contact the team for the current status.',
+            },
+          ],
+        },
+      ],
     },
     imprint: {
       heading: 'Imprint',

@@ -15,12 +15,13 @@ export default function Navigation() {
   }, [])
 
   const links = [
-    { href: '#geschichte', label: t.nav.history },
-    { href: '#menschen', label: t.nav.people },
-    { href: '#gelaende', label: t.nav.site },
-    { href: '#galerie', label: t.nav.gallery },
-    { href: '#mitmachen', label: t.nav.join },
-    { href: '#kontakt', label: t.nav.contact },
+    { href: '/#geschichte', label: t.nav.history },
+    { href: '/#menschen', label: t.nav.people },
+    { href: '/#gelaende', label: t.nav.site },
+    { href: '/#galerie', label: t.nav.gallery },
+    { href: '/#mitmachen', label: t.nav.join },
+    { href: '/faq', label: t.nav.faq },
+    { href: '/#kontakt', label: t.nav.contact },
   ]
 
   return (
@@ -32,7 +33,7 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <a href="#" className="text-amber-400 font-serif text-lg font-bold tracking-wide">
+          <a href="/" className="text-amber-400 font-serif text-lg font-bold tracking-wide">
             Hansen-Werke
           </a>
 

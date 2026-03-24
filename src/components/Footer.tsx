@@ -18,6 +18,9 @@ export default function Footer() {
 
           {/* Links */}
           <div className="flex gap-6 text-sm">
+            <a href="/community" className="text-stone-500 hover:text-amber-400 transition-colors">
+              Community
+            </a>
             <a href="/faq" className="text-stone-500 hover:text-amber-400 transition-colors">
               FAQ
             </a>

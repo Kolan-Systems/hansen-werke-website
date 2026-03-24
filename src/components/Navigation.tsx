@@ -20,6 +20,7 @@ export default function Navigation() {
     { href: '/#gelaende', label: t.nav.site },
     { href: '/#galerie', label: t.nav.gallery },
     { href: '/#mitmachen', label: t.nav.join },
+    { href: '/community', label: t.nav.community },
     { href: '/faq', label: t.nav.faq },
     { href: '/#kontakt', label: t.nav.contact },
   ]
